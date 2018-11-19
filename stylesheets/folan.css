@@ -1,6 +1,4 @@
-:root {
-
-}
+/* my CSS is horrible */
 
 body {
   display: flex;
@@ -47,17 +45,30 @@ a.navbar-item:hover {
   /* margin: 16px 0px;  */
   margin-top: 16px;
   padding: 10px 16px;
-  /* padding-bottom: 2px; */
+  padding-bottom: 24px;
   border: 1.1px solid black;
   border-radius: 0px;
   word-wrap: break-word;
 }
 
-
 .bordered-box h5 {
+  margin-bottom: 8px
+}
+
+
+.one-liner {
+  margin-bottom: 8px
   /* margin-top: 12px;
   margin-bottom: 12px;
   margin-left: 16px;  */
+}
+
+.skill-title {
+  margin-bottom: 8px
+}
+
+.bordered-box p {
+  margin-bottom: 8px
 }
 
 /* .bordered-box: */
@@ -164,8 +175,8 @@ h1 {
 h6 {
   font-size: 22px;
   line-height: 1.55;
-  margin-top: 14px;
-  margin-bottom: 8px;
+  /* margin-top: 14px; */
+  /* margin-bottom: 8px; */
 }
 
 h5 {
